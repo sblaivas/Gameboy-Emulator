@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgbcore.a CMakeFiles/gbcore.dir/core/src/gb.c.o
+/usr/bin/ranlib libgbcore.a

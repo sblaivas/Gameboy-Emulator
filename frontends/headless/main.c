@@ -19,7 +19,7 @@ int main(void){
     const uint32_t *pixels = gb_framebuffer(gb);
     //read the first pixel and print it as 8 hex digits
     printf("%08X\n", (unsigned)pixels[0]);
-    printf("%08X\n", (unsigned)pixels[23039]);
+    printf("%08X\n", (unsigned)pixels[GB_SCREEN_WIDTH * GB_SCREEN_HEIGHT - 1]);
     //turn off the gb
     gb_destroy(gb);
     return 0;
