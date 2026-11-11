@@ -1,0 +1,3 @@
+headless
+*.dSYM/
+.DS_Store
