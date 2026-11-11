@@ -9,7 +9,8 @@
 
 struct GB{
     //This array is the Game Boys screen stored in memory. 
-    uint32_t framebuffer[GB_SCREEN_WIDTH * GB_SCREEN_HEIGHT]; 
+    uint32_t framebuffer[GB_SCREEN_WIDTH * GB_SCREEN_HEIGHT];
+    uint8_t buttons;
 };
 
 #endif
