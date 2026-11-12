@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/stevenblaivas/Gameboy/build",
+  "command": "/usr/bin/cc  -I/Users/stevenblaivas/Gameboy/core/include -std=gnu11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/gbcore.dir/core/src/gb.c.o -c /Users/stevenblaivas/Gameboy/core/src/gb.c",
+  "file": "/Users/stevenblaivas/Gameboy/core/src/gb.c",
+  "output": "CMakeFiles/gbcore.dir/core/src/gb.c.o"
+},
+{
+  "directory": "/Users/stevenblaivas/Gameboy/build",
+  "command": "/usr/bin/cc  -I/Users/stevenblaivas/Gameboy/core/include -std=gnu11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/gbemu-headless.dir/frontends/headless/main.c.o -c /Users/stevenblaivas/Gameboy/frontends/headless/main.c",
+  "file": "/Users/stevenblaivas/Gameboy/frontends/headless/main.c",
+  "output": "CMakeFiles/gbemu-headless.dir/frontends/headless/main.c.o"
+},
+{
+  "directory": "/Users/stevenblaivas/Gameboy/build",
+  "command": "/usr/bin/cc  -I/Users/stevenblaivas/Gameboy/core/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/SDL2 -std=gnu11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/gbemu.dir/frontends/sdl/main.c.o -c /Users/stevenblaivas/Gameboy/frontends/sdl/main.c",
+  "file": "/Users/stevenblaivas/Gameboy/frontends/sdl/main.c",
+  "output": "CMakeFiles/gbemu.dir/frontends/sdl/main.c.o"
+}
+]

@@ -1,4 +1,5 @@
 /Users/stevenblaivas/Gameboy/build/CMakeFiles/gbcore.dir
 /Users/stevenblaivas/Gameboy/build/CMakeFiles/gbemu-headless.dir
+/Users/stevenblaivas/Gameboy/build/CMakeFiles/gbemu.dir
 /Users/stevenblaivas/Gameboy/build/CMakeFiles/edit_cache.dir
 /Users/stevenblaivas/Gameboy/build/CMakeFiles/rebuild_cache.dir

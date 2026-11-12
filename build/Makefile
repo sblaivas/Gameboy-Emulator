@@ -142,6 +142,19 @@ gbemu-headless/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu-headless.dir/build.make CMakeFiles/gbemu-headless.dir/build
 .PHONY : gbemu-headless/fast
 
+#=============================================================================
+# Target rules for targets named gbemu
+
+# Build rule for target.
+gbemu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu
+.PHONY : gbemu
+
+# fast build rule for target.
+gbemu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu.dir/build.make CMakeFiles/gbemu.dir/build
+.PHONY : gbemu/fast
+
 core/src/gb.o: core/src/gb.c.o
 .PHONY : core/src/gb.o
 
@@ -190,6 +203,30 @@ frontends/headless/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu-headless.dir/build.make CMakeFiles/gbemu-headless.dir/frontends/headless/main.c.s
 .PHONY : frontends/headless/main.c.s
 
+frontends/sdl/main.o: frontends/sdl/main.c.o
+.PHONY : frontends/sdl/main.o
+
+# target to build an object file
+frontends/sdl/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu.dir/build.make CMakeFiles/gbemu.dir/frontends/sdl/main.c.o
+.PHONY : frontends/sdl/main.c.o
+
+frontends/sdl/main.i: frontends/sdl/main.c.i
+.PHONY : frontends/sdl/main.i
+
+# target to preprocess a source file
+frontends/sdl/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu.dir/build.make CMakeFiles/gbemu.dir/frontends/sdl/main.c.i
+.PHONY : frontends/sdl/main.c.i
+
+frontends/sdl/main.s: frontends/sdl/main.c.s
+.PHONY : frontends/sdl/main.s
+
+# target to generate assembly for a file
+frontends/sdl/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gbemu.dir/build.make CMakeFiles/gbemu.dir/frontends/sdl/main.c.s
+.PHONY : frontends/sdl/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +236,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gbcore"
+	@echo "... gbemu"
 	@echo "... gbemu-headless"
 	@echo "... core/src/gb.o"
 	@echo "... core/src/gb.i"
@@ -206,6 +244,9 @@ help:
 	@echo "... frontends/headless/main.o"
 	@echo "... frontends/headless/main.i"
 	@echo "... frontends/headless/main.s"
+	@echo "... frontends/sdl/main.o"
+	@echo "... frontends/sdl/main.i"
+	@echo "... frontends/sdl/main.s"
 .PHONY : help
 
 
