@@ -1,3 +1,4 @@
 headless
 *.dSYM/
 .DS_Store
+.vscode/
